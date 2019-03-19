@@ -1,23 +1,23 @@
 class Parrot {
     constructor() {
-    
+
     }
 
     getSpeed() {
         console.log("Should be unreachable");
     }
 
-    getLoadFactor(){
+    getLoadFactor() {
         return 9;
     }
 
-    getBaseSpeed(){
+    getBaseSpeed() {
         return 12;
     }
 
 }
 
-class African extends Parrot{
+class African extends Parrot {
     constructor(numberOfCoconuts) {
         super();
         this.numberOfCoconuts = numberOfCoconuts;
@@ -28,7 +28,7 @@ class African extends Parrot{
 
 }
 
-class Norwegian_Blue extends Parrot{
+class Norwegian_Blue extends Parrot {
     constructor(voltage, isNailed) {
         super();
         this.voltage = voltage;
@@ -43,7 +43,7 @@ class Norwegian_Blue extends Parrot{
     }
 }
 
-class European extends Parrot{
+class European extends Parrot {
     constructor() {
         super();
     }
@@ -53,4 +53,9 @@ class European extends Parrot{
     }
 }
 
-module.exports={Parrot, African, Norwegian_Blue, European}
+module.exports = {
+    Parrot,
+    African,
+    Norwegian_Blue,
+    European
+}
