@@ -1,4 +1,3 @@
-//import { Parrot,  } from '../parrot';
 var Parrots = require('../parrot')
 
 describe("Parrot", function () {
